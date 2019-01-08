@@ -34,7 +34,7 @@ const bool bascekDurum1 = 0;     // 0 if bascek gives a low
 const bool bascekDurum2 = 0;     // 0 if bascek gives a low
 const bool bascekDurum3 = 0;     // 0 if bascek gives a low
 //====================================================
-String HTML_Root = "<!doctype html><html><body>\<a href=\'toggle\'><ANAHTAR type=\"ANAHTAR\">ROLE1</ANAHTAR> <a href=\'role2\'><ANAHTAR type=\"ANAHTAR\">role2</ANAHTAR> <a href=\'role3\'><ANAHTAR type=\"ANAHTAR\">role3</ANAHTAR> <a href=\'role4\'><ANAHTAR type=\"ANAHTAR\">role4</ANAHTAR>\</body></html>";
+String HTML_Root = "<!doctype html><html><body>\<a href=\'toggle\'><button type=\"button\">ROLE1</button> <a href=\'role2\'><button type=\"button\">role2</button> <a href=\'role3\'><button type=\"button\">role3</button> <a href=\'role4\'><button type=\"button\">role4</button>\</body></html>";
 
 //====================================================
 void handleRoot() {
